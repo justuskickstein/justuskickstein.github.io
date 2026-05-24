@@ -106,37 +106,18 @@ a {
   margin-bottom: 6px;
 }
 
-.qr-box {
-  position: relative;
-  width: 112px;
-  height: 112px;
+.qr-link {
+  display: inline-block;
   margin: 10px 0 10px;
   background: white;
-  display: grid;
-  place-items: center;
-  overflow: hidden;
+  padding: 8px;
 }
 
 .qr-image {
-  width: 100%;
-  height: 100%;
+  display: block;
+  width: 112px;
+  height: 112px;
   object-fit: contain;
-}
-
-.qr-image[src="assets/qr-code.png"] {
-  display: none;
-}
-
-.qr-placeholder {
-  color: #2f63c7;
-  font-weight: 800;
-  font-size: 16px;
-  border: 3px solid #2f63c7;
-  width: 84px;
-  height: 84px;
-  display: grid;
-  place-items: center;
-  text-align: center;
 }
 
 .main-content {
