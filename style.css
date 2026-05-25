@@ -235,7 +235,19 @@ a {
 .document-buttons a:hover {
   background: #2f63c7;
 }
+.locked-button {
+  background: #2f63c7 !important;
+}
 
+.locked-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  background: white;
+  border-left: 4px solid #2f63c7;
+  color: #202332;
+  font-size: 15px;
+  line-height: 1.5;
+}
 @media (max-width: 900px) {
   .page {
     width: 100%;
